@@ -1,0 +1,12 @@
+// tsconfig.json
+{
+    "compilerOptions": {
+      "target": "ES6",
+      "module": "commonjs",
+      "outDir": "./build",
+      "strict": true,
+      "esModuleInterop": true
+    },
+    "include": ["./routes", "app.ts"]
+  }
+  
